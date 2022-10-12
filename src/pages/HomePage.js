@@ -1,9 +1,10 @@
 import { Container } from 'reactstrap';
+import HomeNav from '../components/home/HomeNav';
 
 const HomePage = () => {
     return (
         <Container>
-            <h3>HomePage</h3>
+            <HomeNav />
         </Container>
     )
 };
