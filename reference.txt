@@ -1,0 +1,254 @@
+Page Content Reference:
+
+1. Home Page: 
+Main Text: Duncan Payne
+Secondary Text: Multi-Media Artist
+Nav Menu: Home, News, Portfolio, About Me, Contact Me
+Carousel Images:
+
+2. News Page:
+Nav Menu: Home, News, Portfolio, About Me, Contact Me
+Newest Piece Image: img/The Black Egg.jpeg
+Information on Newest Piece Text: Name: The Black Egg, Medium: Mixed Media, Ashes, on Watercolor Paper, Size: 22 inches x 16 inches, Year: 2022, Description: Abstract/Surreal painting related to depression and mental illness.
+Current Shows and Exhibitions Text: What: Ruminations Solo Show, Where: Studio Ink, 220 E Main St, Norman, OK, 73069, When: November 11th - December 5th, 2022
+
+3. Portfolio Page:
+Nav Menu: Home, News, Portfolio, About Me, Contact Me
+Tabs: Traditional Paintings, Sculptures and Installation, Performance and Kinetic Art, Other
+Images In Traditional Paintings:
+    img/The Black Egg.jpeg 
+    Modal Text:
+    Name: The Black Egg, 
+    Medium: Mixed Media, Ashes, on Watercolor Paper, 
+    Size: 22 inches x 16 inches, 
+    Year: 2022, 
+    Description: Abstract/Surreal painting related to depression and mental illness.
+
+    img/Grieving Hearts.jpeg 
+    Modal Text: 
+    Name: Grieving Hearts, 
+    Medium: Mixed Media on Canvas, 
+    Size: 4 feet x 3 feet, 
+    Year: 2022, 
+    Description: Painting that deals with themes of grief, and the forms it can take.
+
+    img/The Punishment of Narcissus.jpeg 
+    Modal Text: 
+    Name: The Punishment of Narcissus, 
+    Medium: Mixed Media on Watercolor Paper, 
+    Size: 23.75 inches x 18 inches, 
+    Year: 2022, 
+    Description: Painting inspired by the Narcissus myth.
+
+    img/Study of Goya's Saturn Devouring His Son.jpeg 
+    Modal Text: 
+    Name: Study of Goya's Saturn Devouring His Son, 
+    Medium: Mixed Media on Watercolor Paper, 
+    Size: 20" x 14", 
+    Year: 2022, 
+    Description: Painting inspired by Francisco Goya's piece.
+
+    img/Floating in Blue.jpeg 
+    Modal Text: 
+    Name: Floating In Blue, 
+    Medium: Mixed Media on Canvas, 
+    Size: 13.75 inches x 10.75 inches, 
+    Year: 2022, 
+    Description: Self portrait experiment inspired by depression.
+
+    img/Inferno, Canto 1.jpeg 
+    Modal Text: 
+    Name: Inferno, Canto 1, 
+    Medium: Mixed Media on Canvas Board, 
+    Size: 14 inches x 11 inches, 
+    Year: 2021, 
+    Description: Illustration of the first canto of Dante's "Inferno" section of "The Divine Comedy".
+
+    img/Orpheus.jpeg 
+    Modal Text: 
+    Name: Orpheus, 
+    Medium: Mixed Media on Canvas Board, 
+    Size: 14 inches x 11 inches, 
+    Year: 2021, 
+    Description: Meditation on grief inspired by the Orpheus myth, tarot cards, and more.
+
+    img/The Rapture.jpeg 
+    Modal Text: 
+    Name: The Rapture, 
+    Medium: Mixed Media on Watercolor Paper, 
+    Size: 14 inches x 11 inches, 
+    Year: 2021, 
+    Description: Painting that deals with themes of religion, and more.
+
+    img/Untitled.jpeg 
+    Modal Text: 
+    Name: Untitled, 
+    Medium: Mixed Media on Watercolor Paper, 
+    Size: 14 inches x 11 inches, 
+    Year: 2021, 
+    Description: Painting inspired by my earlier work.
+
+    img/Liquescence and Lethe.jpeg 
+    Modal Text: 
+    Name: Liquescence and Lethe, 
+    Medium: Mixed Media on Canvas, 
+    Size: 24 inches x 18 inches, 
+    Year: 2021, 
+    Description: Painting that deals with themes of life, motherhood, tarot cards, and more.
+
+    img/Original Sin.JPG 
+    Modal Text: 
+    Name: Original Sin, 
+    Medium: Mixed Media on Canvas, 
+    Size: 20 inches x 16 inches, 
+    Year: 2021, 
+    Description: Painting that deals with themes of religion, tarot cards, and more.
+
+    img/Reflection.JPG 
+    Modal Text: 
+    Name: Reflection, 
+    Medium: Mixed Media on Canvas, 
+    Size: 20 inches x 16 inches, 
+    Year: 2021, 
+    Description: Painting inspired by the pandemic, tarot cards, and more.
+
+    img/Divine Phantasm.jpg 
+    Modal Text: 
+    Name: Divine Phantasm, 
+    Medium: Mixed Media on Canvas, 
+    Size: 20 inches x 16 inches, 
+    Year: 2020, 
+    Description: Painting inspired by insomnia, tarot cards, and more.
+
+    img/Beyond The Pale.jpg 
+    Modal Text: 
+    Name: Beyond The Pale, 
+    Medium: Mixed Media on Canvas, 
+    Size: 20 inches x 16 inches, 
+    Year: 2020, 
+    Description: Painting inspired by death, tarot cards, and more.
+
+    img/Self Portrait.JPG 
+    Modal Text: 
+    Name: Self Portrait 2020, 
+    Medium: Mixed Media on Canvas, 
+    Size: 24 inches x 18 inches, 
+    Year: 2020, 
+    Description: A self portrait, that acts as a sort of snapshot of a person at a singular point in time. Does this person still exist?
+
+    img/She Who Invites.jpg 
+    Modal Text: 
+    Name: She Who Invites, 
+    Medium: Mixed Media on Canvas, 
+    Size: 20 inches x 16 inches, 
+    Year: 2018, 
+    Description: Painting inspired by the Japanese goddess Izanami-no-Mikoto.
+
+Images in Sculptures and Installation:
+    img/Humanity.jpeg 
+    Modal Text: 
+    Name: Mankind: A Work In Progress, 
+    Medium: Mixed Media, 
+    Size: 7 feet x 9 feet x 11 feet, 
+    Year: 2020, Description: Surrealist installation piece that deals with themes of humanity.
+
+    img/Lovers Mask.jpeg 
+    Modal Text: 
+    Name: Lovers Mask, 
+    Medium: Mixed Media, 
+    Size: 3 inches x 5 inches x 10 inches, 
+    Year: 2020, 
+    Description: Mask sculpture, inspired by tarot cards and more.
+
+    img/Hermit Mask.jpeg 
+    Modal Text: 
+    Name: Hermit Mask, 
+    Medium: Mixed Media, 
+    Size: 5 inches x 10 inches x 10 inches, 
+    Year: 2020, 
+    Description: Mask sculpture, inspired by tarot cards and more.
+
+    img/Fool Mask.jpeg 
+    Modal Text: 
+    Name: Fool Mask, 
+    Medium: Mixed Media, 
+    Size: 5 inches x 5 inches x 10 inches, 
+    Year: 2020, 
+    Description: Mask sculpture, inspired by tarot cards and more.
+
+    img/Devil Mask.jpeg 
+    Modal Text: 
+    Name: Devil Mask, 
+    Medium: Mixed Media, 
+    Size: 7 inches x 6 inches x 12 inches, 
+    Year: 2020, 
+    Description: Mask sculpture, inspired by tarot cards and more.
+
+    img/Butterflies Drink Blood 3.JPEG 
+    Modal Text: 
+    Name: Butterflies Drink Blood, 
+    Medium: Mixed Media, 
+    Size: 5 feet x 4 feet x 6 feet, 
+    Year: 2018, 
+    Description: Absurdist / surrealist installation piece that deals with themes of innocence lost.
+
+Images and Videos in Performance and Kinetic Art:
+    img/Sleep 5.jpeg 
+    Modal Text: 
+    Name: Sleep, 
+    Medium: Mixed Media, 
+    Size: Performance Piece / Wearable Kinetic Art, 
+    Year: 2018, 
+    Description: Absurdist / surrealist performance piece that seeks to create a dialogue about echo chambers and societal brainwashing.
+
+Images in Other:
+    img/Abattoir Chromia.jpg 
+    Modal Text: 
+    Name: Abattoir Chromia, 
+    Medium: Digital, 
+    Size: 20 inches x 16 inches, 
+    Year: 2021, 
+    Description: Digital art inspired by modern life.
+
+    img/Abattoir Noir.jpg 
+    Modal Text: 
+    Name: Abattoir Noir, 
+    Medium: Digital, 
+    Size: 20 inches x 16 inches, 
+    Year: 2021, 
+    Description: Digital art inspired by modern life.
+
+    img/Le Mat.jpeg 
+    Modal Text: 
+    Name: Le Mat, 
+    Medium: Woodblock Print, 
+    Size: 8 inches x 6 inches, 
+    Year: 2018, 
+    Description: A print inspired by tarot cards.
+
+    img/Lost in Time and Space 2.jpg 
+    Modal Text: 
+    Name: Lost in Time and Space 2, 
+    Medium: Photography, 
+    Size: 20 inches x 16 inches, 
+    Year: 2017, 
+    Description: Experimental photography.
+
+    img/Lost in Time and Space 1.jpg 
+    Modal Text: 
+    Name: Lost in Time and Space 1, 
+    Medium: Photography, 
+    Size: 20 inches x 16 inches, 
+    Year: 2017, 
+    Description: Experimental photography.
+
+
+4. About Me Page:
+Nav Menu: Home, News, Portfolio, About Me, Contact Me
+Bio Text:
+CV Text:
+Artist Statement Text:
+
+5. Contact Me Page:
+Nav Menu: Home, News, Portfolio, About Me, Contact Me
+
