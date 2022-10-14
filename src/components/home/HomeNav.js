@@ -4,7 +4,7 @@ import Navstyle from '../../styles/HomeNav.css'
 
 const HomeNav = () => {
     return (
-        <Container>
+        <Container className='containerHome'>
             <Row>
                 <Col className = 'align-items-center'>
                     <h1>Duncan Payne</h1>
