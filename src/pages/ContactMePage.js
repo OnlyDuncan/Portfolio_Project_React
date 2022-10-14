@@ -1,9 +1,10 @@
 import { Container } from 'reactstrap';
+import Header from '../components/Header';
 
 const ContactMePage = () => {
     return (
         <Container>
-            <h3>ContactMePage</h3>
+            <Header />
         </Container>
     )
 };
