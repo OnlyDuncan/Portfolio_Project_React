@@ -4,7 +4,6 @@ import Header from '../components/Header';
 const PortfolioPage = () => {
     return (
         <Container>
-            <h3>PortfolioPage</h3>
             <Header />
         </Container>
     )

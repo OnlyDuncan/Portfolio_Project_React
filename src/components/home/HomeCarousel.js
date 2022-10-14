@@ -7,7 +7,7 @@ import Image1 from '../../app/assets/The Punishment of Narcissus Entry.jpg';
 
 const items = [
   {
-    src: { Image1 },
+    src: Image1,
     key: 1,
   },
   {
