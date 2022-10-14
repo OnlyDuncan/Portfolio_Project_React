@@ -4,18 +4,20 @@ import {
   CarouselItem
 } from 'reactstrap';
 import Image1 from '../../app/assets/The Punishment of Narcissus Entry.jpg';
+import Image2 from '../../app/assets/The Black Egg.jpeg';
+import Image3 from '../../app/assets/Sleep 5 entry.jpg';
 
 const items = [
   {
-    src: { Image1 },
+    src: Image1,
     key: 1,
   },
   {
-    src: 'src/app/assets/The Black Egg.jpeg',
+    src: Image2,
     key: 2,
   },
   {
-    src: 'src/app/assets/Sleep 5 entry.jpg',
+    src: Image3,
     key: 3,
   },
 ];
@@ -43,7 +45,7 @@ function HomeCarousel(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} class='w-100 rounded'/>
       </CarouselItem>
     );
   });

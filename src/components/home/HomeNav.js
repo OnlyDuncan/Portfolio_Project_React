@@ -1,9 +1,10 @@
-import { Row, Col, Button, ButtonGroup } from 'reactstrap';
+import { Container, Row, Col, Button, ButtonGroup } from 'reactstrap';
 import { NavLink, Link } from 'react-router-dom';
+import Navstyle from '../../styles/HomeNav.css'
 
 const HomeNav = () => {
     return (
-        <>
+        <Container>
             <Row>
                 <Col className = 'align-items-center'>
                     <h1>Duncan Payne</h1>
@@ -16,21 +17,21 @@ const HomeNav = () => {
             </Row>
             <Row>
                 <ButtonGroup vertical size = 'lg'>
-                    <Button color="primary">
-                        <Link to = 'news'>News</Link>
+                    <Button outline>
+                        <Link className='link' to = 'news'>News</Link>
                     </Button>
-                    <Button>
-                        <NavLink to = 'portfolio'>Portfolio</NavLink>
+                    <Button outline>
+                        <NavLink className='link' to = 'portfolio'>Portfolio</NavLink>
                     </Button>
-                    <Button>
-                        <NavLink to = 'about'>About Me</NavLink>
+                    <Button outline>
+                        <NavLink className='link' to = 'about'>About Me</NavLink>
                     </Button>
-                    <Button>
-                        <NavLink to = 'contact'>Contact Me</NavLink>
+                    <Button outline>
+                        <NavLink className='link' to = 'contact'>Contact Me</NavLink>
                     </Button>
                 </ButtonGroup>
             </Row>
-        </>
+        </Container>
     )
 };
 

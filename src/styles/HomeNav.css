@@ -1,0 +1,23 @@
+.container {
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    background-color: rgba(0,0,0,0);
+}
+    .container .btn {
+        background-color: rgba(0,0,0,0.5);
+        margin-bottom:15px;
+        width: 140px;
+    }
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
