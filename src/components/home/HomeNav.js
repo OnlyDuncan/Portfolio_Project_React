@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button, ButtonGroup } from 'reactstrap';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navstyle from '../../styles/HomeNav.css'
 
 const HomeNav = () => {
@@ -16,19 +16,27 @@ const HomeNav = () => {
                 </Col>
             </Row>
             <Row>
-                <ButtonGroup vertical size = 'lg'>
-                    <Button outline>
-                        <Link className='link' to = 'news'>News</Link>
-                    </Button>
-                    <Button outline>
-                        <NavLink className='link' to = 'portfolio'>Portfolio</NavLink>
-                    </Button>
-                    <Button outline>
-                        <NavLink className='link' to = 'about'>About Me</NavLink>
-                    </Button>
-                    <Button outline>
-                        <NavLink className='link' to = 'contact'>Contact Me</NavLink>
-                    </Button>
+                <ButtonGroup vertical>
+                    <Link className='link' to = 'news'>
+                        <Button outline size='lg'>
+                            News
+                        </Button>
+                    </Link>
+                    <Link className='link' to = 'portfolio'>
+                        <Button outline size='lg'>
+                            Portfolio
+                        </Button>
+                    </Link>
+                    <Link  className='link' to = 'about'>
+                        <Button outline size='lg'>
+                            About Me
+                        </Button>
+                    </Link>
+                    <Link className='link' to = 'contact'>
+                        <Button outline size='lg'>
+                            Contact Me
+                        </Button>
+                    </Link>
                 </ButtonGroup>
             </Row>
         </Container>

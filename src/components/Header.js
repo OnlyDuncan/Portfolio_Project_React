@@ -11,7 +11,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <>
+        <header style={{backgroundColor: 'gray'}}>
             <h1>Duncan Payne</h1>
             <br/>
             <h2>Multi-Media Artist</h2>
@@ -47,7 +47,7 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-        </>
+        </header>
     );
 };
 

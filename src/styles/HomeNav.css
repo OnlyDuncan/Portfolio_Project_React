@@ -10,14 +10,11 @@
 }
     .containerHome .btn {
         background-color: rgba(0,0,0,0.5);
+        color: white;
         margin-bottom:15px;
         width: 140px;
     }
 
 .link {
-    color: white;
-}
-
-.link:hover {
-    color: white;
+    margin: auto;
 }
