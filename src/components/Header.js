@@ -11,11 +11,10 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header style={{backgroundColor: 'gray'}}>
-            <h1>Duncan Payne</h1>
-            <br/>
-            <h2>Multi-Media Artist</h2>
-            <Navbar dark color='primary' sticky='top' expand='md'>
+        <header style={{backgroundColor: 'black'}}>
+            <h1 style={{color: 'white'}}>Duncan Payne</h1>
+            <h2 style={{color: 'white'}}>Multi-Media Artist</h2>
+            <Navbar dark style={{backgroundColor: 'rgb(117,117,117)'}} sticky='top' expand='md'>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className='ms-auto align-center justify-content-between w-100' navbar>
