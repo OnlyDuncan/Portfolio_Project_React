@@ -51,6 +51,7 @@ const AboutMePage = () => {
                     </Card>
                 </Col>
             </Row>
+            <br />
         </Container>
     )
 };

@@ -1,6 +1,6 @@
-import { Container, Row, Col, Card, CardBody, CardTitle } from 'reactstrap';
+import { Container, Row, Col, Card, CardBody, CardTitle, CardImg } from 'reactstrap';
 import Header from '../components/Header';
-import Image from '../app/assets/The Black Egg.jpeg';
+import newsImage from '../app/assets/The Black Egg.jpeg';
 
 const NewsPage = () => {
     return (
@@ -9,11 +9,14 @@ const NewsPage = () => {
             <br />
             <Row>
                 <Col md='5'>
-                    Ahhhhhh
+                    <Card>
+                        <CardImg width='100%' src={ newsImage } />
+                    </Card>
                 </Col>
+                <br />
                 <Col />
                 <Col md='6' outline>
-                    <Card>
+                    <Card style={{height:"100%"}}>
                         <CardTitle className='card-header border border-dark' style={{backgroundColor: 'rgb(117, 117, 117)'}}>
                             <h3 className='text-light'>Recently Produced Work:</h3>
                         </CardTitle>
@@ -41,6 +44,7 @@ const NewsPage = () => {
                     </Card>
                 </Col>
             </Row>
+            <br />
         </Container>
     )
 };

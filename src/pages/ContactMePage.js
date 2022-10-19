@@ -21,6 +21,7 @@ const ContactMePage = () => {
                     </Card>
                 </Col>
             </Row>
+            <br />
         </Container>
     )
 };
