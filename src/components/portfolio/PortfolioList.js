@@ -46,7 +46,7 @@ const PortfolioList = () => {
                         </Scrollspy>
                     </Nav>
                 </Col>
-                <Col sm='9' style={{height: "1080px", overflowY: 'scroll'}}>
+                <Col sm='9' style={{height: "500px", overflowY: 'scroll'}}>
                     <Row className='ms-auto' id='traditional-paintings'>
                         <h1>Traditional Paintings</h1>
                         {traditionalPaintings.map((traditionalPainting) => {
