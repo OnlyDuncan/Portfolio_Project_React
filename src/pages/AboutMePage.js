@@ -8,7 +8,7 @@ const AboutMePage = () => {
             <br />
             <Row>
                 <Col md='5' outline>
-                    <Card>
+                    <Card style={{height:"100%"}}>
                         <CardTitle className="card-header border border-dark" style={{backgroundColor: 'rgb(117, 117, 117)'}}>
                             <h3 className="text-light">Bio:</h3>
                         </CardTitle>
@@ -19,7 +19,7 @@ const AboutMePage = () => {
                 </Col>
                 <Col md='2' />
                 <Col md='5' outline>
-                    <Card>
+                    <Card style={{height:"100%"}}>
                         <CardTitle className="card-header border border-dark" style={{backgroundColor: 'rgb(117, 117, 117)'}}>
                             <h3 className="text-light">CV:</h3>
                         </CardTitle>
