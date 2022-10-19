@@ -14,32 +14,32 @@ const Header = () => {
         <header style={{backgroundColor: 'black'}}>
             <h1 style={{color: 'white'}}>Duncan Payne</h1>
             <h2 style={{color: 'white'}}>Multi-Media Artist</h2>
-            <Navbar style={{backgroundColor: 'gray'}} sticky='top' expand='md'>
-                <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
+            <Navbar style={{backgroundColor: 'rgb(117, 117, 117)'}} dark sticky='top' expand='md'>
+                <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} cssModule={{color: 'white'}} />
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className='ms-auto align-center justify-content-between w-100' navbar>
                         <NavItem>
-                            <NavLink className='nav-link' to='/' style={{color: 'white'}}>
+                            <NavLink className='nav-link' to='/'>
                                 Entry
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='nav-link' to='/news' style={{color: 'white'}}>
+                            <NavLink className='nav-link' to='/news'>
                                 News
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='nav-link' to='/portfolio' style={{color: 'white'}}>
+                            <NavLink className='nav-link' to='/portfolio'>
                                 Portfolio
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='nav-link' to='/about' style={{color: 'white'}}>
+                            <NavLink className='nav-link' to='/about'>
                                 About Me
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='nav-link' to='/contact' style={{color: 'white'}}>
+                            <NavLink className='nav-link' to='/contact'>
                                 Contact Me
                             </NavLink>
                         </NavItem>
