@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from 'reactstrap';
+import { Container, Row, Col, Card, CardBody, CardTitle } from 'reactstrap';
 import Header from '../components/Header';
 import Image from '../app/assets/The Black Egg.jpeg';
 
@@ -6,12 +6,13 @@ const NewsPage = () => {
     return (
         <Container>
             <Header />
+            <br />
             <Row>
-                <Col className='col-md-5'>
+                <Col md='5'>
                     Ahhhhhh
                 </Col>
                 <Col />
-                <Col className='col-md-6 card border-0'>
+                <Col md='6' outline>
                     <Card>
                         <CardTitle className='card-header border border-dark' style={{backgroundColor: 'rgb(117, 117, 117)'}}>
                             <h3 className='text-light'>Recently Produced Work:</h3>
@@ -25,10 +26,11 @@ const NewsPage = () => {
                     </Card>
                 </Col>
             </Row>
+            <br />
             <Row>
-                <Col className='col card border-0'>
+                <Col outline>
                     <Card>
-                        <CardTitle className='card-header border border-dark' style={{backgroundCOLOR: 'rgb(117, 117, 117)'}}>
+                        <CardTitle className='card-header border border-dark' style={{backgroundColor: 'rgb(117, 117, 117)'}}>
                             <h3 className='text-light'>Current Shows and Exhibitions:</h3>
                         </CardTitle>
                         <CardBody className='card-body border border-dark' style={{backgroundColor: 'rgb(244, 242, 242)'}}>
