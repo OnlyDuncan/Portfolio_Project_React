@@ -1,0 +1,7 @@
+.link {
+    color: black;
+}
+
+.list-group-item:hover {
+    background-color: darkgrey;
+}

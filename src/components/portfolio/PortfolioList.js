@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Col, Row, Nav, NavItem, NavLink } from 'reactstrap';
+import { Col, Row, ListGroup, ListGroupItem, NavLink } from 'reactstrap';
 import ArtworkCard from './ArtworkCard';
 import {
     selectAllTraditionalPaintings,
@@ -7,7 +7,7 @@ import {
     selectAllPerformanceAndKineticArt,
     selectAllOtherArt
 } from './portfolioSlice';
-import Scrollspy from 'react-scrollspy';
+import portfolioListStyle from '../../styles/PortfolioList.css';
 
 const PortfolioList = () => {
     const traditionalPaintings = useSelector(selectAllTraditionalPaintings);
@@ -21,30 +21,23 @@ const PortfolioList = () => {
 
     return (
         <>
-            <Row>
+            <Row style={portfolioListStyle}>
                 <Col sm='3'>
-                    <Nav vertical>
-                        <Scrollspy 
-                            className='list-group' 
-                            items={ ['traditional-paintings', 'sculptures-and-installations', 'performance-and-kinetic-art', 'other-art'] }
-                            currentClassName='is-current'
-                        >
-                            <NavItem className='list-group-item' active color='secondary'>
-                                <NavLink href='#traditional-paintings'>Traditional Paintings</NavLink>
-                            </NavItem>
-                            <NavItem className='list-group-item'>
-                                <NavLink 
-                                href='#sculptures-and-installations'
-                                >Sculptures and Installations</NavLink>
-                            </NavItem>
-                            <NavItem className='list-group-item'>
-                                <NavLink href='#performance-and-kinetic-art'>Performance and Kinetic Art</NavLink>
-                            </NavItem>
-                            <NavItem className='list-group-item'>
-                                <NavLink href='#other-art'>Other Art</NavLink>
-                            </NavItem>
-                        </Scrollspy>
-                    </Nav>
+                    <ListGroup flush>
+                        <ListGroupItem className='list-group-item' color='secondary'>
+                            <NavLink href='#traditional-paintings' className='link'>Traditional Paintings</NavLink>
+                        </ListGroupItem>
+                        <ListGroupItem className='list-group-item' color='secondary'>
+                            <NavLink
+                            href='#sculptures-and-installations' className='link'>Sculptures and Installations</NavLink>
+                        </ListGroupItem>
+                        <ListGroupItem className='list-group-item' color='secondary'>
+                            <NavLink href='#performance-and-kinetic-art' className='link'>Performance and Kinetic Art</NavLink>
+                        </ListGroupItem>
+                        <ListGroupItem className='list-group-item' color='secondary'>
+                            <NavLink href='#other-art' className='link'>Other Art</NavLink>
+                        </ListGroupItem>
+                    </ListGroup>
                 </Col>
                 <Col sm='9' style={{height: "500px", overflowY: 'scroll'}}>
                     <Row className='ms-auto' id='traditional-paintings'>
