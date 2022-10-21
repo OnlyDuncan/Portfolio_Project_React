@@ -1,10 +1,12 @@
+import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { 
     Col,
     Row, 
     ListGroup, 
     ListGroupItem, 
-    NavLink
+    NavLink,
+    CarouselCaption
 } from 'reactstrap';
 import ArtworkCard from './ArtworkCard';
 import {
@@ -16,6 +18,15 @@ import {
 import portfolioListStyle from '../../styles/PortfolioList.css';
 
 const PortfolioList = () => {
+    const [height, setHeight] = useState(window.innerHeight -158);
+    
+    const updateHeight = () => {
+            setHeight(window.innerHeight -158);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', updateHeight);
+        return () => window.removeEventListener('resize', updateHeight);
+    }, []);
 
     const traditionalPaintings = useSelector(selectAllTraditionalPaintings);
     const sculpturesAndInstallations = useSelector (selectAllSculpturesAndInstallations);
@@ -42,7 +53,7 @@ const PortfolioList = () => {
                         </ListGroupItem>
                     </ListGroup>
                 </Col>
-                <Col sm='9' style={{height: "500px", overflowY: 'scroll'}}>
+                <Col sm='9' style={{maxHeight: height, overflowY: 'scroll'}}>
                     <Row className='ms-auto' id='traditional-paintings'>
                         <h1>Traditional Paintings</h1>
                         {traditionalPaintings.map((traditionalPainting) => {
