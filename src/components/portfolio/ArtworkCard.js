@@ -1,4 +1,4 @@
-import { useState, Image } from 'react';
+import { useState } from 'react';
 import { Card, CardImg, Modal, ModalHeader, ModalBody, Row, Col } from 'reactstrap';
 
 const ArtworkCard = ({ artwork }) => {
@@ -18,7 +18,7 @@ const ArtworkCard = ({ artwork }) => {
                 <ModalBody>
                     <Row>
                         <Col sm='6'>
-                            <img className='img-fluid' src={image}/>
+                            <img className='img-fluid' src={image} alt={description}/>
                         </Col>
                         <Col sm='6'>
                             <h4>Medium:</h4>

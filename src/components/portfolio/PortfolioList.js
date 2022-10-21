@@ -5,8 +5,7 @@ import {
     Row, 
     ListGroup, 
     ListGroupItem, 
-    NavLink,
-    CarouselCaption
+    NavLink
 } from 'reactstrap';
 import ArtworkCard from './ArtworkCard';
 import {
