@@ -1,5 +1,11 @@
 import { useSelector } from 'react-redux';
-import { Col, Row, ListGroup, ListGroupItem, NavLink } from 'reactstrap';
+import { 
+    Col,
+    Row, 
+    ListGroup, 
+    ListGroupItem, 
+    NavLink
+} from 'reactstrap';
 import ArtworkCard from './ArtworkCard';
 import {
     selectAllTraditionalPaintings,
@@ -10,14 +16,11 @@ import {
 import portfolioListStyle from '../../styles/PortfolioList.css';
 
 const PortfolioList = () => {
+
     const traditionalPaintings = useSelector(selectAllTraditionalPaintings);
     const sculpturesAndInstallations = useSelector (selectAllSculpturesAndInstallations);
     const performanceAndKineticArt = useSelector(selectAllPerformanceAndKineticArt);
     const otherArt = useSelector(selectAllOtherArt);
-    console.log('Traditional Paintings:', traditionalPaintings);
-    console.log('Sculptures And Installations:', sculpturesAndInstallations);
-    console.log('Performance And Kinetic Art:', performanceAndKineticArt);
-    console.log('Other Art:', otherArt);
 
     return (
         <>
